@@ -16,6 +16,7 @@ function KegList(props) {
           price={keg.price}
           flavor={keg.flavor}
           capacity={keg.capacity}
+          howMuchLeft={keg.howMuchLeft}
           id={keg.id}
           key={keg.id} />
       )}

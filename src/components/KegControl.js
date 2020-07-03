@@ -79,8 +79,6 @@ class KegControl extends React.Component {
       console.log("empty keg");
       this.setState({ counter: 0 });
     }
-
-    this.setState();
   }
 
   handleDeletingKeg = (id) => {

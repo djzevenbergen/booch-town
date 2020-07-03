@@ -20,7 +20,7 @@ Keg.propTypes = {
   brand: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   flavor: PropTypes.string,
-  capacity: PropTypes.string,
+  capacity: PropTypes.number,
   id: PropTypes.string,
   whenKegClicked: PropTypes.func,
   onClickingEditCapacity: PropTypes.func
