@@ -25,7 +25,10 @@ function ReusableForm(props) {
           placeholder='Flavor' />
         <input
           type='hidden'
-          type='number'
+          name='howMuchLeft'
+          value='Plenty-o-Booch' />
+        <input
+          type='hidden'
           name='capacity'
           value='124' />
 

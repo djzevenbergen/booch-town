@@ -11,6 +11,7 @@ function KegDetail(props) {
       <p>Price: {keg.price}</p>
       <p>Flavor: {keg.flavor}</p>
       <p>Capacity: {keg.capacity}</p>
+      <p>{keg.howMuchLeft} left</p>
       <button onClick={props.onClickingEdit}>Update Entry</button>
       <button onClick={() => onClickingDelete(keg.id)}>Delete Entry</button>
       <hr />
