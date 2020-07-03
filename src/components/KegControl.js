@@ -3,6 +3,7 @@ import NewKegForm from "./NewKegForm";
 import KegList from "./KegList";
 import KegDetail from "./KegDetail";
 import EditKegForm from './EditKegForm';
+import Keg from "./Keg";
 
 
 class KegControl extends React.Component {
@@ -65,6 +66,15 @@ class KegControl extends React.Component {
   handleEditClick = () => {
     console.log("handleEditClick reached!");
     this.setState({ editing: true });
+  }
+
+  handlePullingPint = (id) => {
+    const thisKeg = this.state.masterKegList
+      .filter(keg => keg.id === id)
+    thisKeg[0].capacity -= 1;
+    console.log("pint pulled");
+    console.log(thisKeg[0].capacity);
+    this.setState();
   }
 
   handleDeletingKeg = (id) => {
