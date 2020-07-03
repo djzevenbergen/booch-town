@@ -97,6 +97,7 @@ class KegControl extends React.Component {
         <KegList
           kegList={this.state.masterKegList}
           onKegSelection={this.handleChangingSelectedKeg}
+          onClickingEditCapacity={this.handlePullingPint}
         />
       buttonText = "Add Keg!";
     } else if (this.state.counter === 1) {

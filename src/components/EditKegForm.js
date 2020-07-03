@@ -41,7 +41,7 @@ function EditKegForm(props) {
       passedFlavor = props.keg.flavor;
     }
 
-    props.onEditKeg({ name: passedName, brand: passedBrand, price: passedPrice, flavor: passedFlavor, capacity: event.target.capacity.value, id: keg.id });
+    props.onEditKeg({ name: passedName, brand: passedBrand, price: passedPrice, flavor: passedFlavor, capacity: props.keg.capacity, id: keg.id });
   }
 
   return (
