@@ -16,7 +16,8 @@ _An tap tracking app built in React.js that allows the user to enter and track k
 
 ## Known Bugs
 
-Can sell one pint after the keg is empty
+- Empty list div has border
+- Keg list sends edited keg panel to end of list on edit
 
 ## Support and contact details
 
