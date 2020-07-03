@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  align-content: center;
 }
 
 code {
@@ -26,7 +28,9 @@ code {
 
 .keg{
   text-align: center;
+  align-self: center;
   margin: 20px;
-  border: solid 3px black;
   width: 50%;
+  border: solid 3px black;
+  float: center;
 }
