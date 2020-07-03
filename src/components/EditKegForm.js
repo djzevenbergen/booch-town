@@ -13,19 +13,23 @@ function EditKegForm(props) {
     let passedFlavor;
     let passedCapacity;
 
-    console.log(props.name);
+    //console.log(props.keg.name);
 
-    if (event.target.name.value != null) {
+    if (event.target.name.value != "") {
       passedName = event.target.name.value;
+      //console.log(event.target.name.value);
     } else {
-      passedName = props.name;
+      passedName = props.keg.name;
+      // console.log(passedName);
     }
 
-    if (event.target.brand.value != null) {
+    if (event.target.brand.value != "") {
       passedBrand = event.target.brand.value;
     } else {
       passedBrand = props.brand;
     }
+
+
 
     props.onEditKeg({ name: passedName, brand: passedBrand, price: event.target.price.value, flavor: event.target.flavor.value, capacity: event.target.capacity.value, id: keg.id });
   }
