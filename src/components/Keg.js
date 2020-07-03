@@ -36,5 +36,4 @@ Keg.propTypes = {
   onClickingEditCapacity: PropTypes.func
 };
 
-
 export default Keg;
