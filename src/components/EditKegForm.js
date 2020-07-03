@@ -7,7 +7,7 @@ function EditLogForm(props) {
 
   function handleEditKegFormSubmission(event) {
     event.preventDefault();
-    props.onEditKeg({ name: event.target.name.value, location: event.target.location.value, type: event.target.type.value, description: event.target.description.value, level: event.target.level.value, id: keg.id });
+    props.onEditKeg({ name: event.target.name.value, brand: event.target.brand.value, price: event.target.price.value, flavor: event.target.flavor.value, capacity: event.target.capacity.value, id: keg.id });
   }
 
   return (
