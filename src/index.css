@@ -27,20 +27,28 @@ code {
   color: red;
 }
 
-.keg{
+.keg-list{
   text-align: center;
+  border: solid 5px black;
+}
 
+.keg{
+  float: center;
   padding: 20px;
-  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 50%;
+  height: 20%;
   border: solid 3px black;
 
 }
 
-.keg-list{
-  text-align: center;
-  align-content: center;
-  border: solid 5px black;
+.header {
+  background-color: black;
+  color: yellow;
 }
 
 button {

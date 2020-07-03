@@ -2,7 +2,8 @@ import React from "react";
 
 function Header() {
   return (
-    <h1>Booch Town</h1>
+    <div className="header"><h1>Booch Town</h1></div>
+
   );
 }
 
