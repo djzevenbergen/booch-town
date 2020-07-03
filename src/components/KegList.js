@@ -7,19 +7,21 @@ import KegDetail from './KegDetail';
 function KegList(props) {
   return (
     <React.Fragment>
-      {props.kegList.map((keg) =>
-        <Keg
-          whenKegClicked={props.onKegSelection}
-          onClickingEditCapacity={props.onClickingEditCapacity}
-          name={keg.name}
-          brand={keg.brand}
-          price={keg.price}
-          flavor={keg.flavor}
-          capacity={keg.capacity}
-          howMuchLeft={keg.howMuchLeft}
-          id={keg.id}
-          key={keg.id} />
-      )}
+      <div className="keg-list">
+        {props.kegList.map((keg) =>
+          <Keg
+            whenKegClicked={props.onKegSelection}
+            onClickingEditCapacity={props.onClickingEditCapacity}
+            name={keg.name}
+            brand={keg.brand}
+            price={keg.price}
+            flavor={keg.flavor}
+            capacity={keg.capacity}
+            howMuchLeft={keg.howMuchLeft}
+            id={keg.id}
+            key={keg.id} />
+        )}
+      </div>
     </React.Fragment>
   );
 }

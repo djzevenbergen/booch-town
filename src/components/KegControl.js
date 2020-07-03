@@ -71,15 +71,17 @@ class KegControl extends React.Component {
   handlePullingPint = (id) => {
     const thisKeg = this.state.masterKegList
       .filter(keg => keg.id === id)
-    if (thisKeg[0].capacity > 0 && thisKeg[0].capacity > 10) {
+    if (thisKeg[0].capacity > 0 && thisKeg[0].capacity > 11) {
       thisKeg[0].capacity -= 1;
       this.setState({ counter: 0 });
-    } else if (thisKeg[0].capacity > 0 && thisKeg[0].capacity <= 10) {
+    } else if (thisKeg[0].capacity > 1 && thisKeg[0].capacity <= 11) {
       thisKeg[0].capacity -= 1;
       thisKeg[0].howMuchLeft = "Not Much"
       this.setState({ counter: 0 });
     } else {
+      thisKeg[0].capacity -= 1;
       thisKeg[0].howMuchLeft = "None"
+
       this.setState({ counter: 0 });
     }
   }

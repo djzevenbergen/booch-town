@@ -15,10 +15,10 @@ function Keg(props) {
     <React.Fragment>
       <div className="keg">
         <h3>{props.name} - <span className={classType}>{props.price}</span></h3>
-        <h3>{props.capacity} pints left, there's {props.howMuchLeft} left!</h3>
+        <h3>{props.capacity} pints left </h3>
+        <h3><em>There's {props.howMuchLeft} left!</em></h3>
         <button onClick={() => props.whenKegClicked(props.id)}>Keg Details</button>
         <button onClick={() => props.onClickingEditCapacity(props.id)}>Pull Pint</button>
-        <hr />
       </div>
     </React.Fragment>
   );
