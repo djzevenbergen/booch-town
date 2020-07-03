@@ -114,3 +114,5 @@ class KegControl extends React.Component {
     );
   }
 }
+
+export default KegControl;

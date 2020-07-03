@@ -8,12 +8,12 @@ function NewKegForm(props) {
     <React.Fragment>
       <ReusableForm
         formSubmissionHandler={handleNewKegFormSubmission}
-        buttonText="Submit Pokemans" />
+        buttonText="Submit Keg" />
     </React.Fragment>
   );
   function handleNewKegFormSubmission(event) {
     event.preventDefault();
-    props.onNewKegCreation({ name: event.target.name.value, location: event.target.location.value, type: event.target.type.value, level: event.target.level.value, description: event.target.description.value, id: v4() });
+    props.onNewKegCreation({ name: event.target.name.value, brand: event.target.brand.value, price: event.target.price.value, flavor: event.target.flavor.value, capacity: event.target.capacity.value, id: v4() });
   }
 }
 NewKegForm.propTypes = {
