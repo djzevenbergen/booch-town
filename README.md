@@ -7,6 +7,7 @@
 
 _An tap tracking app built in React.js that allows the user to enter and track kombucha taps. It allows the user to pull pints from individual taps and tracks each tap's capacity and fullness. It has color-coded prices._
 
+
 ## Setup/Installation Requirements
 
 * Clone this repository from GitHub.
@@ -14,20 +15,24 @@ _An tap tracking app built in React.js that allows the user to enter and track k
 * run the 'npm install' command
 * run 'npm start'
 
+
 ## Known Bugs
 
 - Empty list div has border
 - Keg list sends edited keg panel to end of list on edit
 
+
 ## Support and contact details
 
 _Have a bug or an issue with this application? [Open a new issue] here on GitHub._
+
 
 ## Technologies Used
 
 * Javascript
 * React.js
 * NPM 
+
 
 ### User Story
 
@@ -36,11 +41,12 @@ _Have a bug or an issue with this application? [Open a new issue] here on GitHub
 * As a user, I want to be able to click on a keg to see its detail page
 * As a user, I want to see how many pints are left in a keg
 * As a user, I I want to be able to click a button next to a keg whenever I sell a pint of it. this should decrease the number of pints left by 1. Pints should not be able to go below 0
-* As a user, I want to be able to edit a keg's properties after netering them just in case I make a mistake
+* As a user, I want to be able to edit a keg's properties after entering them just in case I make a mistake
+* As a user, I want to be able to edit just one of the properties and have the rest persist
 * As a user, I want to be able to delete a keg.
 * As a user, I want a keg to update to say "out of stock" once it's empty
 * As a user, I want kegs with less than 10 pints to include a message that says "almost emtpy" so i can try a pint before its gone
-* As a user, I want to have kegs prices to be color-codes for easy readability. 
+* As a user, I want to have kegs prices to be color-coded for easy readability. 
 
 
 ### License

@@ -31,9 +31,7 @@ function ReusableForm(props) {
           type='hidden'
           name='capacity'
           value='124' />
-
         <button type='submit'>{props.buttonText}</button>
-
       </form>
     </React.Fragment >
   );

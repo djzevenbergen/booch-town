@@ -1,13 +1,18 @@
 import React from 'react';
 import Keg from './Keg';
 import PropTypes from "prop-types";
-import KegDetail from './KegDetail';
-
 
 function KegList(props) {
+
+
+  if (props.kegList.length === 0) {
+    document.getElementById("keg-list").addClass("hidden");
+  } else {
+    document.getElementById("keg-list").removeClass("hidden");
+  }
   return (
     <React.Fragment>
-      <div className="keg-list">
+      <div id="keg-list" className="keg-list">
         {props.kegList.map((keg) =>
           <Keg
             whenKegClicked={props.onKegSelection}

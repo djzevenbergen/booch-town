@@ -51,6 +51,10 @@ code {
   color: yellow;
 }
 
+.hidden {
+display: none;
+}
+
 button {
   background-color: black;
   color: white;
