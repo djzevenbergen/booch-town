@@ -26,12 +26,22 @@ function EditKegForm(props) {
     if (event.target.brand.value != "") {
       passedBrand = event.target.brand.value;
     } else {
-      passedBrand = props.brand;
+      passedBrand = props.keg.brand;
     }
 
+    if (event.target.price.value != "") {
+      passedPrice = event.target.price.value;
+    } else {
+      passedPrice = props.keg.price;
+    }
 
+    if (event.target.flavor.value != "") {
+      passedFlavor = event.target.flavor.value;
+    } else {
+      passedFlavor = props.keg.flavor;
+    }
 
-    props.onEditKeg({ name: passedName, brand: passedBrand, price: event.target.price.value, flavor: event.target.flavor.value, capacity: event.target.capacity.value, id: keg.id });
+    props.onEditKeg({ name: passedName, brand: passedBrand, price: passedPrice, flavor: passedFlavor, capacity: event.target.capacity.value, id: keg.id });
   }
 
   return (
