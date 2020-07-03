@@ -13,13 +13,13 @@ function Keg(props) {
 
   return (
     <React.Fragment>
-
-      <h3>{props.name} - <span className={classType}>{props.price}</span></h3>
-      <h3>{props.capacity} pints left, there's {props.howMuchLeft} left!</h3>
-      <button onClick={() => props.whenKegClicked(props.id)}>Keg Details</button>
-      <button onClick={() => props.onClickingEditCapacity(props.id)}>Pull Pint</button>
-      <hr />
-
+      <div className="keg">
+        <h3>{props.name} - <span className={classType}>{props.price}</span></h3>
+        <h3>{props.capacity} pints left, there's {props.howMuchLeft} left!</h3>
+        <button onClick={() => props.whenKegClicked(props.id)}>Keg Details</button>
+        <button onClick={() => props.onClickingEditCapacity(props.id)}>Pull Pint</button>
+        <hr />
+      </div>
     </React.Fragment>
   );
 }

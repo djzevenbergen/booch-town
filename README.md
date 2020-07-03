@@ -3,8 +3,6 @@
 
 #### By _**DJ Zevenbergen**_
 
-
-
 ## Description
 
 _An tap tracking app built in React.js that allows the user to enter and track kombucha taps. It allows the user to pull pints from individual taps and tracks each tap's capacity and fullness. It has color-coded prices._
@@ -30,7 +28,6 @@ _Have a bug or an issue with this application? [Open a new issue] here on GitHub
 * React.js
 * NPM 
 
-
 ### User Story
 
 * As a user, I want to see a list/menu of all available kegs. For each keg, I want to see name, brand, price, and flavor
@@ -41,10 +38,8 @@ _Have a bug or an issue with this application? [Open a new issue] here on GitHub
 * As a user, I want to be able to edit a keg's properties after netering them just in case I make a mistake
 * As a user, I want to be able to delete a keg.
 * As a user, I want a keg to update to say "out of stock" once it's empty
-* As a user, I want kegs with less than 10 pints to include a message that says "almost emtpy" so i cna try a pint before its gone
-
-* On get request, return dictionary with key value pairs of ```{{"version", "version 1}, {"types", List<strings>{"types","businesses"}}, {"response", List<Remedy>{}}```
-
+* As a user, I want kegs with less than 10 pints to include a message that says "almost emtpy" so i can try a pint before its gone
+* As a user, I want to have kegs prices to be color-codes for easy readability. 
 
 
 ### License

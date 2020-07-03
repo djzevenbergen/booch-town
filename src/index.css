@@ -23,3 +23,10 @@ code {
 .expensive {
   color: red;
 }
+
+.keg{
+  text-align: center;
+  margin: 20px;
+  border: solid 3px black;
+  width: 50%;
+}
