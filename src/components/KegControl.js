@@ -73,14 +73,13 @@ class KegControl extends React.Component {
       .filter(keg => keg.id === id)
     if (thisKeg[0].capacity > 0 && thisKeg[0].capacity > 10) {
       thisKeg[0].capacity -= 1;
-      console.log("pint pulled");
-      console.log(thisKeg[0].capacity);
+      this.setState({ counter: 0 });
     } else if (thisKeg[0].capacity > 0 && thisKeg[0].capacity <= 10) {
       thisKeg[0].capacity -= 1;
       thisKeg[0].howMuchLeft = "Not Much"
+      this.setState({ counter: 0 });
     } else {
       thisKeg[0].howMuchLeft = "None"
-      console.log("empty keg");
       this.setState({ counter: 0 });
     }
   }
@@ -98,7 +97,6 @@ class KegControl extends React.Component {
     let buttonText = null;
 
     if (this.state.editing) {
-      //console.log(this.state.selectedKeg.name);
       currentlyVisibleState = <EditKegForm keg={this.state.selectedKeg} onEditKeg={this.handleEditingKegInList} />
       buttonText = "Return to Keg List";
     }
