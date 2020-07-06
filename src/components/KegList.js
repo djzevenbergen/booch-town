@@ -1,10 +1,6 @@
 import React from 'react';
 import Keg from './Keg';
 import PropTypes from "prop-types";
-<<<<<<< HEAD
-=======
-
->>>>>>> a5f9cb13187c467ff894fe699e3f84163a1127ca
 
 function KegList(props) {
 

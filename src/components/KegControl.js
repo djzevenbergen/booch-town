@@ -3,10 +3,7 @@ import NewKegForm from "./NewKegForm";
 import KegList from "./KegList";
 import KegDetail from "./KegDetail";
 import EditKegForm from './EditKegForm';
-<<<<<<< HEAD
-=======
 
->>>>>>> a5f9cb13187c467ff894fe699e3f84163a1127ca
 
 class KegControl extends React.Component {
 

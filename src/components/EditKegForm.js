@@ -12,11 +12,6 @@ function EditKegForm(props) {
     let passedPrice;
     let passedFlavor;
 
-<<<<<<< HEAD
-    //console.log(props.keg.name);
-
-=======
->>>>>>> a5f9cb13187c467ff894fe699e3f84163a1127ca
     if (event.target.name.value !== "") {
       passedName = event.target.name.value;
     } else {
