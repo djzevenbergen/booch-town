@@ -15,14 +15,6 @@ _An tap tracking app built in React.js that allows the user to enter and track k
 * run the 'npm install' command
 * run 'npm start'
 
-<<<<<<< HEAD
-
-## Known Bugs
-
-- Empty list div has border
-- Keg list sends edited keg panel to end of list on edit
-
-=======
 ## Diagram
 
 ![there should be a diagram here. If there's not, please contact me](https://i.imgur.com/Oq6kWQa.jpg "My incredible diagram")
