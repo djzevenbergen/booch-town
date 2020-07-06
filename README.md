@@ -16,7 +16,7 @@ _An tap tracking app built in React.js that allows the user to enter and track k
 
 ## Diagram
 
-![there should be a diagram here. If there's not, please contact me](https://imgur.com/a/bLyAepX "My incredible diagram")
+![there should be a diagram here. If there's not, please contact me](https://i.imgur.com/Oq6kWQa.jpg "My incredible diagram")
 
 ## Support and contact details
 
