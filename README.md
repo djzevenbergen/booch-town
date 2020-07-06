@@ -14,9 +14,9 @@ _An tap tracking app built in React.js that allows the user to enter and track k
 * run the 'npm install' command
 * run 'npm start'
 
-## Known Bugs
+## Diagram
 
-Can sell one pint after the keg is empty
+![there should be a diagram here. If there's not, please contact me](https://imgur.com/a/bLyAepX "My incredible diagram")
 
 ## Support and contact details
 
